@@ -1,0 +1,107 @@
+@charset "UTF-8";
+
+.main {
+  width: 100%;
+}
+
+a,
+u {
+  color: black;
+  text-decoration: none !important;
+}
+
+.title {
+  width: 1200px;
+  height: 100%;
+  display: flex;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.title_text {
+  flex: 1;
+  font-size: 52px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.minigame_view {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.minigame_item {
+  width: 500px;
+  display: inline-flex;
+  flex-direction: column;
+  padding-right: 20px;
+
+  &:nth-child(2n-1) {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.minigame_thumbnail {
+  margin: 0 auto;
+
+  & img {
+    width: 500px;
+  }
+}
+
+.minigame_info {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.minigame_info_box {
+  overflow: hidden;
+}
+
+.minigame_title {
+  font-size: 20px;
+  white-space: nowrap;
+}
+
+.minigame_releasedate {
+  margin-top: 5px;
+  margin-bottom: 2px;
+}
+
+.minigame_description {
+  margin-bottom: 5px;
+}
+
+.minigame_text {
+  color: #505050;
+  font-size: 16px;
+}
+
+.footer {
+  background-color: #fafbfc;
+  border-top: 1px solid #505050;
+}
+
+.footer_inner {
+  width: 1200px;
+  height: 75px;
+  margin: 0 auto;
+}
+
+.footer_navigator {
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.ask_title {
+  color: #000000;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.footer_name {
+  color: #505050;
+  font-size: 24px;
+}
